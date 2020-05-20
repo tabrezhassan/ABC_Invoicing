@@ -1,0 +1,66 @@
+﻿@model ABC_Invoicing.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CompanyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompanyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerRegNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerRegNum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerVatNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerVatNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerContact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerContact)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CustomerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

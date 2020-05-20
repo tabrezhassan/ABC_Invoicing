@@ -1,0 +1,96 @@
+﻿table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+
+}
+
+th {
+    background-color: #404040;
+    color: white;
+    font-size: 12px;
+}
+
+tr {
+    height: 10px;
+    font-size: 10.5px;
+}
+
+tfoot tr td {
+    background-color: #404040;
+    color: white;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.form-control {
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 300px;
+    height: 25px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.datepicker {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 200px;
+    height: 25px;
+}
+
+
+
+.control-label{
+    font-size: 12px
+}
+
+.fa-input {
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    text-align: center;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.headertext {
+    text-align: center;
+}
+
+.actionlink{color:white;}
+
+.logout{
+    bottom:500px;
+    margin-left:875px;
+}
